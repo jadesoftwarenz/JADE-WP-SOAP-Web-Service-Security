@@ -1,0 +1,4 @@
+#MULTIPLE_SCHEMA_EXTRACT
+WebServiceUtilitiesSchema.scm WebServiceUtilitiesSchema.ddb
+CalculatorServices.scm CalculatorServices.ddb
+CalculatorServicesClient.scm CalculatorServicesClient.ddb

@@ -1,0 +1,207 @@
+JadeVersionNumber 6.3.06
+JadePatchNumber 0
+Platform WindowsNT 6.0 
+Encoding ANSI 
+Version 6/6.3.06 
+Schema WebServiceUtilitiesSchema CompleteDefinition
+Locales 5129 
++++++AppGlobalDefinitions 
+<<<<<InstanceData 
+^^^^^Application 
+2121/Application __htmlAttributeOffsetDict Object 6 __inspectorObject Object 6 __jadeHttpConnection Object 6 __overridePatchNumber Integer 4 __patchControlString String -1 __patchVersionDict Object 6 __reportWriterRef Object 6 _aboutFormName String 31 _consoleMemRefs Binary 33 _defaultLocaleId Integer 4 _dynamicPropertyBag Object 6 _internetPipe Connection 6 _internetPipeName String -1 _modifiedBy String 31 _modifiedTimestamp TimeStamp 8 _numberOfPipes Integer 4 _patchVersion Integer 4 _propertyBag Binary -1 _startupFormName String 31 _systemVersion String 9 _useNullValues Boolean 1 _useXMLConfigFile Boolean 1 _useXMLDocumentParser Boolean 1 _webAppDirectory String -1 _webAppExtension JadeWebAppExtension 6 _webBaseURL String -1 _webConfigDynamicProperties Object 6 _webDelayBetweenApps Integer 4 _webDisplayMessages Boolean 1 _webDisplayPreference Character 1 _webEnabled Boolean 1 _webFinalizeMethod JadeMethod 6 _webHomePage String 31 _webInitializeMethod JadeMethod 6 _webIsSecure Boolean 1 _webLogFile Object 6 _webMachineName String -1 _webMaxHTMLSize Integer 4 _webMessage JadeWebMessage 6 _webMethodExecutionPrefix String 31 _webQueue JadeWebQueue 6 _webServiceClasses String -1 _webSession WebSession 6 _webSessionManager WebSessionManager 6 _webSessionTimeout Integer 4 _webShowModal Boolean 1 _webStartupForm Form 6 _webStartupFormName String 31 _webStatusLineDisplay String -1 _webUseHTML32 Boolean 1 _webUseSessionHandling Boolean 1 _webVirtualDirectory String -1 _webWaitForReply Boolean 1 aboutForm Form 6 appVersion String 31 applicationType Character 1 controlSpacing Integer 4 currentLocale Locale 6 currentLocaleInfo LocaleFullInfo 6 defaultApp Boolean 1 defaultMdi Boolean 1 finalizeMethod Method 6 fontBold Boolean 1 fontName String 31 fontSize Real 8 formMargin Integer 4 heightSingleLineControl Integer 4 helpFile String -1 icon Binary -1 initializeMethod Method 6 jadeWebServiceManager JadeWebServiceManager 6 name String 31 printer Printer 6 schema Schema 6 showBubbleHelp Boolean 1 startupForm Form 6 useBorderStyleOnly Boolean 1 webMinimumResponseTime Integer 4 xamlStartup JadeXamlClass 6 
+401/1462.74 25/WebServiceUtilitiesSchema 0.0 0.0 0.0 0 0/ 0.0 0.0 0/ 44/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 0 0.0 0.0 0/ 7/cnwcrs1 23/2010:04:08:09:37:16.998 0 0 0/ 0/ 6/9.9.00 0 0 0 0/ 0.0 0/ 0.0 0 0 0/ 0 0/ 0/ 0/ 0 0.0 0/ 0 0.0 0/ 0.0 0/ 0.0 0.0 0 0 0.0 0/ 0/ 0 0 0/ 0 0.0 0/ 1/G 4 0.0 0.0 1 0 0/ 0 13/MS Sans Serif 8.25 7 14 0/ 0/ 0/ 0.0 25/WebServiceUtilitiesSchema 0.0 1280.66 0 0.0 0 0 0.0 
+*****Application
+^^^^^Class 
+6/Class 
+16/5.10 8/CheckBox 
+16/5.14 8/GroupBox 
+21/5.26 12/OptionButton 
+*****Class 
+>>>>>InstanceData 
+<<<<<CollectionData 
+^^^^^Application 
+68/Application threeDControls ClassColl 6 _webEventClasses ClassColl 6 
+44/1462.74 11/Application 14/5.14 5.26 5.10 0/ 
+*****Application 
+>>>>>CollectionData 
+<<<<<FixupData 
+>>>>>FixupData 
+-----AppGlobalDefinitions
++++++ExternalComponentLibraryDefinitions 
+<<<<<InstanceData 
+^^^^^ActiveXLibrary 
+241/ActiveXLibrary _modifiedBy String 31 _modifiedTimestamp TimeStamp 8 _patchVersion Integer 4 _schema Schema 6 _systemVersion String 9 activeXClass ActiveXClass 6 componentType Integer 4 guid Binary 16 helpFileName String 257 status Integer 4 
+93/1329.2 14/ActiveXLibrary 7/cnwcrs1 0/ 0 1280.66 0/ 1295.5 1 24/wN/JbEeCEd+FRyB0IFJBUw== 0/ 0 
+*****ActiveXLibrary 
+^^^^^ActiveXClass 
+234/ActiveXClass activeXLibrary ActiveXLibrary 6 activeXName String 255 baseClass Class 6 defaultEventInterfaceGuid Binary 16 defaultInterfaceGuid Binary 16 dotNetName StringUtf8 -1 guid Binary 16 isEventInterface Boolean 1 key Binary -1 
+143/1295.5 12/ActiveXClass 1329.2 8/jadwssec 1281.3679 24/AAAAAAAAAAAAAAAAAAAAAA== 24/AAAAAAAAAAAAAAAAAAAAAA== 0/ 24/wOL90UeCEd+FRyB0IFJBUw== 0 0/ 
+158/1295.6 12/ActiveXClass 1329.2 22/JadeWSAddressingHeader 1281.3683 24/AAAAAAAAAAAAAAAAAAAAAA== 24/AAAAAAAAAAAAAAAAAAAAAA== 0/ 24/OgQVQFWlaDOa0KoHXakXJg== 0 0/ 
+153/1295.7 12/ActiveXClass 1329.2 17/JadeSecurityToken 1281.3681 24/AAAAAAAAAAAAAAAAAAAAAA== 24/AAAAAAAAAAAAAAAAAAAAAA== 0/ 24/lU2d3LEF6j2mK84R5kGG2g== 0 0/ 
+153/1295.8 12/ActiveXClass 1329.2 17/JadeUsernameToken 1281.3682 24/AAAAAAAAAAAAAAAAAAAAAA== 24/AAAAAAAAAAAAAAAAAAAAAA== 0/ 24/b6uwbp8i+T6axdmvbv6tDQ== 0 0/ 
+157/1295.9 12/ActiveXClass 1329.2 21/JadeWSTimestampHeader 1281.3684 24/AAAAAAAAAAAAAAAAAAAAAA== 24/AAAAAAAAAAAAAAAAAAAAAA== 0/ 24/lui6xW4jljG6fgVS3uAOIA== 0 0/ 
+160/1295.10 12/ActiveXClass 1329.2 23/JadeWebServicesSecurity 1281.3685 24/AAAAAAAAAAAAAAAAAAAAAA== 24/AAAAAAAAAAAAAAAAAAAAAA== 0/ 24/oVNHAw4p5DaaNoJ1+eKX9A== 0 0/ 
+*****ActiveXClass 
+^^^^^ActiveXAttribute 
+51/ActiveXAttribute feature Feature 6 memid Integer 4 
+47/1797.61 16/ActiveXAttribute 1291.5204 67109389 
+47/1797.62 16/ActiveXAttribute 1291.5205 67109390 
+47/1797.63 16/ActiveXAttribute 1291.5207 67109391 
+47/1797.64 16/ActiveXAttribute 1291.5208 67109392 
+47/1797.65 16/ActiveXAttribute 1291.5206 67109393 
+47/1797.66 16/ActiveXAttribute 1291.5203 67108957 
+47/1797.67 16/ActiveXAttribute 1291.5202 67108958 
+47/1797.68 16/ActiveXAttribute 1291.5211 67108894 
+47/1797.69 16/ActiveXAttribute 1291.5209 67108895 
+47/1797.70 16/ActiveXAttribute 1291.5210 67108896 
+47/1797.71 16/ActiveXAttribute 1292.2825 67109559 
+47/1797.72 16/ActiveXAttribute 1292.2824 67109560 
+47/1797.73 16/ActiveXAttribute 1292.2823 67109561 
+47/1797.74 16/ActiveXAttribute 1291.5213 67109562 
+47/1797.75 16/ActiveXAttribute 1291.5212 67109563 
+*****ActiveXAttribute 
+^^^^^ActiveXMethod 
+48/ActiveXMethod feature Feature 6 memid Integer 4 
+44/1812.73 13/ActiveXMethod 1302.2020 67109389 
+44/1812.74 13/ActiveXMethod 1302.2023 67109390 
+44/1812.75 13/ActiveXMethod 1302.2025 67109391 
+44/1812.76 13/ActiveXMethod 1302.2026 67109392 
+44/1812.77 13/ActiveXMethod 1302.2024 67109393 
+45/1812.78 13/ActiveXMethod 1302.2022 100663627 
+45/1812.79 13/ActiveXMethod 1302.2019 100663729 
+45/1812.80 13/ActiveXMethod 1302.2018 100663730 
+45/1812.81 13/ActiveXMethod 1302.2017 100663731 
+45/1812.82 13/ActiveXMethod 1302.2016 100663732 
+45/1812.83 13/ActiveXMethod 1302.2014 100663727 
+44/1812.84 13/ActiveXMethod 1302.2011 67108957 
+44/1812.85 13/ActiveXMethod 1302.2007 67108958 
+45/1812.86 13/ActiveXMethod 1302.2012 100663464 
+45/1812.87 13/ActiveXMethod 1302.2013 100663465 
+45/1812.88 13/ActiveXMethod 1302.2008 100663466 
+45/1812.89 13/ActiveXMethod 1302.2009 100663467 
+44/1812.90 13/ActiveXMethod 1302.2031 67108894 
+44/1812.91 13/ActiveXMethod 1302.2027 67108895 
+44/1812.92 13/ActiveXMethod 1302.2028 67108896 
+45/1812.93 13/ActiveXMethod 1302.2030 100663332 
+45/1812.94 13/ActiveXMethod 1302.2032 100663333 
+44/1812.95 13/ActiveXMethod 1302.2039 67109559 
+44/1812.96 13/ActiveXMethod 1302.2034 67109560 
+44/1812.97 13/ActiveXMethod 1302.2033 67109561 
+44/1812.98 13/ActiveXMethod 1302.2038 67109562 
+44/1812.99 13/ActiveXMethod 1302.2037 67109563 
+46/1812.100 13/ActiveXMethod 1302.2036 100663826 
+*****ActiveXMethod 
+^^^^^ActiveXConstant 
+73/ActiveXConstant feature Feature 6 memid Integer 4 activeXName String 256 
+53/1813.103 15/ActiveXConstant 1296.179 0 10/SendHashed 
+50/1813.104 15/ActiveXConstant 1296.180 0 8/SendNone 
+56/1813.105 15/ActiveXConstant 1296.181 0 13/SendPlainText 
+55/1813.106 15/ActiveXConstant 1296.177 0 12/Base64Binary 
+51/1813.107 15/ActiveXConstant 1296.178 0 9/HexBinary 
+46/1813.108 15/ActiveXConstant 1296.184 0 4/None 
+46/1813.109 15/ActiveXConstant 1296.185 0 4/Sign 
+49/1813.110 15/ActiveXConstant 1296.182 0 7/Encrypt 
+57/1813.111 15/ActiveXConstant 1296.186 0 14/SignAndEncrypt 
+57/1813.112 15/ActiveXConstant 1296.183 0 14/EncryptAndSign 
+*****ActiveXConstant 
+>>>>>InstanceData 
+<<<<<CollectionData 
+^^^^^Interfaces 
+53/ActiveXLibrary dispInterfaces ActiveXClassGuidDict 6 
+28/1329.2 14/ActiveXLibrary 0/ 
+*****Interfaces 
+^^^^^CoClasses 
+48/ActiveXLibrary coClasses ActiveXClassGuidDict 6 
+64/1329.2 14/ActiveXLibrary 35/1295.6 1295.8 1295.7 1295.9 1295.10 
+*****CoClasses 
+>>>>>CollectionData 
+<<<<<FixupData 
+^^^^^Class 
+6/Class 
+21/1281.3679 8/Jadwssec 
+36/1281.3683 22/JadeWSAddressingHeader 
+31/1281.3681 17/JadeSecurityToken 
+31/1281.3682 17/JadeUsernameToken 
+35/1281.3684 21/JadeWSTimestampHeader 
+37/1281.3685 23/JadeWebServicesSecurity 
+*****Class 
+^^^^^Property 
+27/Property schemaType Type 6 
+29/1291.5204 6/action 1281.3683 
+32/1291.5205 9/messageID 1281.3683 
+30/1291.5207 7/replyTo 1281.3683 
+29/1291.5208 6/sendTo 1281.3683 
+32/1291.5206 9/relatesTo 1281.3683 
+39/1291.5203 15/protectionOrder 1281.3681 
+37/1291.5202 13/clearPassword 1281.3681 
+40/1291.5211 16/secondsToTimeout 1281.3684 
+30/1291.5209 7/created 1281.3684 
+30/1291.5210 7/expires 1281.3684 
+37/1292.2825 13/usernameToken 1281.3685 
+41/1292.2824 17/creationTimestamp 1281.3685 
+34/1292.2823 10/addressing 1281.3685 
+31/1291.5213 8/isSigned 1281.3685 
+35/1291.5212 11/isEncrypted 1281.3685 
+*****Property 
+^^^^^Method 
+25/Method schemaType Type 6 
+29/1302.2020 6/action 1281.3683 
+32/1302.2023 9/messageID 1281.3683 
+30/1302.2025 7/replyTo 1281.3683 
+29/1302.2026 6/sendTo 1281.3683 
+32/1302.2024 9/relatesTo 1281.3683 
+29/1302.2022 6/getXml 1281.3683 
+40/1302.2019 16/validatePassword 1281.3682 
+29/1302.2018 6/getXml 1281.3682 
+35/1302.2017 11/getUsername 1281.3682 
+35/1302.2016 11/getPassword 1281.3682 
+44/1302.2014 20/createDotNetObject_1 1281.3682 
+39/1302.2011 15/protectionOrder 1281.3681 
+37/1302.2007 13/clearPassword 1281.3681 
+30/1302.2012 7/signXml 1281.3681 
+39/1302.2013 15/verifySignature 1281.3681 
+34/1302.2008 10/decryptXml 1281.3681 
+34/1302.2009 10/encryptXml 1281.3681 
+40/1302.2031 16/secondsToTimeout 1281.3684 
+30/1302.2027 7/created 1281.3684 
+30/1302.2028 7/expires 1281.3684 
+29/1302.2030 6/getXml 1281.3684 
+41/1302.2032 17/validateTimestamp 1281.3684 
+37/1302.2039 13/usernameToken 1281.3685 
+41/1302.2034 17/creationTimestamp 1281.3685 
+34/1302.2033 10/addressing 1281.3685 
+31/1302.2038 8/isSigned 1281.3685 
+35/1302.2037 11/isEncrypted 1281.3685 
+32/1302.2036 9/getTokens 1281.3685 
+*****Method 
+^^^^^Constant 
+27/Constant schemaType Type 6 
+48/1296.179 25/PasswordOption_SendHashed 1281.3679 
+46/1296.180 23/PasswordOption_SendNone 1281.3679 
+51/1296.181 28/PasswordOption_SendPlainText 1281.3679 
+48/1296.177 25/EncodingType_Base64Binary 1281.3679 
+45/1296.178 22/EncodingType_HexBinary 1281.3679 
+42/1296.184 19/ProtectionType_None 1281.3679 
+42/1296.185 19/ProtectionType_Sign 1281.3679 
+45/1296.182 22/ProtectionType_Encrypt 1281.3679 
+52/1296.186 29/ProtectionType_SignAndEncrypt 1281.3679 
+52/1296.183 29/ProtectionType_EncryptAndSign 1281.3679 
+*****Constant 
+>>>>>FixupData 
+-----ExternalComponentLibraryDefinitions 
++++++ExportedPackageDefinitions 
+<<<<<InstanceData 
+^^^^^JadeExportedPackage 
+46/JadeExportedPackage application Application 6 
+47/1865.2 28/UserNameTokenSecurityProfile 1462.74 
+*****JadeExportedPackage 
+>>>>>InstanceData 
+<<<<<CollectionData 
+>>>>>CollectionData 
+<<<<<FixupData 
+^^^^^Application
+27/Application name String 30 
+52/1462.74 11/Application 25/WebServiceUtilitiesSchema 
+*****Application 
+>>>>>FixupData 
+-----ExportedPackageDefinitions
