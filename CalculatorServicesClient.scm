@@ -50,9 +50,6 @@ typeDefinitions
 	UserNameTokenSecurityProfile::Jadwssec completeDefinition
 	(
 	)
-	JadeDotNetType completeDefinition
-	(
-	)
 	Object completeDefinition
 	(
 	)
@@ -381,7 +378,6 @@ epilog
 	delete webService;
 	delete addRequest;
 end;
-
 }
 	)
 	JadeCalculator (
@@ -465,7 +461,7 @@ begin
 
     jwss.creationTimestamp.validateTimestamp();
     
-    return out.String;
+    return out;
     
 epilog
 	delete usernameToken;

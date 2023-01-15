@@ -42,9 +42,6 @@ typeDefinitions
 	UserNameTokenSecurityProfile::Jadwssec completeDefinition
 	(
 	)
-	JadeDotNetType completeDefinition
-	(
-	)
 	Object completeDefinition
 	(
 	)
@@ -290,7 +287,6 @@ vars
 	wsTimestamp:		JadeWSTimestampHeader;
     out:    			String;
     str:    			StringUtf8;
-    unt:    			JadeUsernameToken;
 begin
     
     // get the generated message
