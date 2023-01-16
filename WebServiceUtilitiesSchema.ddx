@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema name="WebServiceUtilitiesSchema" JadeVersionNumber="20.0.02" JadePatchNumber="0" CompleteDefinition="true">
+
+	<Application name="WebServiceUtilitiesSchema">
+		<__overridePatchNumber>0</__overridePatchNumber>
+		<__patchControlString/>
+		<_aboutFormName/>
+		<_defaultLocaleId>0</_defaultLocaleId>
+		<_modifiedBy>cnwcrs1</_modifiedBy>
+		<_modifiedTimestamp>2010:04:08:09:37:16.998</_modifiedTimestamp>
+		<_patchVersion>0</_patchVersion>
+		<_startupFormName/>
+		<_systemVersion>9.9.00</_systemVersion>
+		<aboutForm/>
+		<appVersion/>
+		<applicationType>G</applicationType>
+		<controlSpacing>4</controlSpacing>
+		<defaultApp>true</defaultApp>
+		<defaultMdi>false</defaultMdi>
+		<finalizeMethod/>
+		<fontBold>false</fontBold>
+		<fontName>MS Sans Serif</fontName>
+		<fontSize>8.25</fontSize>
+		<formMargin>7</formMargin>
+		<heightSingleLineControl>14</heightSingleLineControl>
+		<helpFile/>
+		<icon/>
+		<initializeMethod/>
+		<mdiStyle>0</mdiStyle>
+		<mdiWindowListOrder>0</mdiWindowListOrder>
+		<name>WebServiceUtilitiesSchema</name>
+		<showBubbleHelp>false</showBubbleHelp>
+		<startupForm/>
+		<useBorderStyleOnly>false</useBorderStyleOnly>
+		<webMinimumResponseTime>0</webMinimumResponseTime>
+		<threeDControls>
+			<GUIClass name="GroupBox" />
+			<GUIClass name="OptionButton" />
+			<GUIClass name="CheckBox" />
+		</threeDControls>
+	</Application>
+
+	<Global name="GWebServiceUtilitiesSchema">
+	</Global>
+
+		<ActiveXLibrary guid="wN/JbEeCEd+FRyB0IFJBUw==" activeXClass="Jadwssec">
+			<_modifiedBy>cnwcrs1</_modifiedBy>
+			<_modifiedTimestamp/>
+			<_patchVersion>0</_patchVersion>
+			<_schema name="WebServiceUtilitiesSchema" />
+			<_systemVersion/>
+			<componentType>1</componentType>
+			<guid>wN/JbEeCEd+FRyB0IFJBUw==</guid>
+			<helpFileName/>
+			<status>0</status>
+			<uuid/>
+			<activeXClass>
+				<ActiveXClass>
+					<activeXName>jadwssec</activeXName>
+					<baseClass name="Jadwssec" />
+					<defaultEventInterfaceGuid>AAAAAAAAAAAAAAAAAAAAAA==</defaultEventInterfaceGuid>
+					<defaultInterfaceGuid>AAAAAAAAAAAAAAAAAAAAAA==</defaultInterfaceGuid>
+					<dotNetName/>
+					<executeMode>0</executeMode>
+					<guid>wOL90UeCEd+FRyB0IFJBUw==</guid>
+					<isEventInterface>false</isEventInterface>
+					<key/>
+					<activexFeatures>
+						<ActiveXConstant>
+							<activeXName>Base64Binary</activeXName>
+							<feature name="EncodingType_Base64Binary" />
+							<memid>0</memid>
+						</ActiveXConstant>
+						<ActiveXConstant>
+							<activeXName>HexBinary</activeXName>
+							<feature name="EncodingType_HexBinary" />
+							<memid>0</memid>
+						</ActiveXConstant>
+						<ActiveXConstant>
+							<activeXName>SendHashed</activeXName>
+							<feature name="PasswordOption_SendHashed" />
+							<memid>0</memid>
+						</ActiveXConstant>
+						<ActiveXConstant>
+							<activeXName>SendNone</activeXName>
+							<feature name="PasswordOption_SendNone" />
+							<memid>0</memid>
+						</ActiveXConstant>
+						<ActiveXConstant>
+							<activeXName>SendPlainText</activeXName>
+							<feature name="PasswordOption_SendPlainText" />
+							<memid>0</memid>
+						</ActiveXConstant>
+						<ActiveXConstant>
+							<activeXName>Encrypt</activeXName>
+							<feature name="ProtectionType_Encrypt" />
+							<memid>0</memid>
+						</ActiveXConstant>
+						<ActiveXConstant>
+							<activeXName>EncryptAndSign</activeXName>
+							<feature name="ProtectionType_EncryptAndSign" />
+							<memid>0</memid>
+						</ActiveXConstant>
+						<ActiveXConstant>
+							<activeXName>None</activeXName>
+							<feature name="ProtectionType_None" />
+							<memid>0</memid>
+						</ActiveXConstant>
+						<ActiveXConstant>
+							<activeXName>Sign</activeXName>
+							<feature name="ProtectionType_Sign" />
+							<memid>0</memid>
+						</ActiveXConstant>
+						<ActiveXConstant>
+							<activeXName>SignAndEncrypt</activeXName>
+							<feature name="ProtectionType_SignAndEncrypt" />
+							<memid>0</memid>
+						</ActiveXConstant>
+					</activexFeatures>
+				</ActiveXClass>
+			</activeXClass>
+			<dispInterfaces>
+			</dispInterfaces>
+			<coClasses>
+				<ActiveXClass>
+					<activeXName>JadeWSAddressingHeader</activeXName>
+					<baseClass name="JadeWSAddressingHeader" />
+					<defaultEventInterfaceGuid>AAAAAAAAAAAAAAAAAAAAAA==</defaultEventInterfaceGuid>
+					<defaultInterfaceGuid>AAAAAAAAAAAAAAAAAAAAAA==</defaultInterfaceGuid>
+					<dotNetName/>
+					<executeMode>0</executeMode>
+					<guid>OgQVQFWlaDOa0KoHXakXJg==</guid>
+					<isEventInterface>false</isEventInterface>
+					<key/>
+					<activexFeatures>
+						<ActiveXAttribute>
+							<feature name="action" />
+							<memid>67109389</memid>
+						</ActiveXAttribute>
+						<ActiveXAttribute>
+							<feature name="messageID" />
+							<memid>67109390</memid>
+						</ActiveXAttribute>
+						<ActiveXAttribute>
+							<feature name="relatesTo" />
+							<memid>67109393</memid>
+						</ActiveXAttribute>
+						<ActiveXAttribute>
+							<feature name="replyTo" />
+							<memid>67109391</memid>
+						</ActiveXAttribute>
+						<ActiveXAttribute>
+							<feature name="sendTo" />
+							<memid>67109392</memid>
+						</ActiveXAttribute>
+						<ActiveXMethod>
+							<feature name="action" />
+							<memid>67109389</memid>
+						</ActiveXMethod>
+						<ActiveXMethod>
+							<feature name="getXml" />
+							<memid>100663627</memid>
+						</ActiveXMethod>
+						<ActiveXMethod>
+							<feature name="messageID" />
+							<memid>67109390</memid>
+						</ActiveXMethod>
+						<ActiveXMethod>
+							<feature name="relatesTo" />
+							<memid>67109393</memid>
+						</ActiveXMethod>
+						<ActiveXMethod>
+							<feature name="replyTo" />
+							<memid>67109391</memid>
+						</ActiveXMethod>
+						<ActiveXMethod>
+							<feature name="sendTo" />
+							<memid>67109392</memid>
+						</ActiveXMethod>
+					</activexFeatures>
+				</ActiveXClass>
+				<ActiveXClass>
+					<activeXName>JadeUsernameToken</activeXName>
+					<baseClass name="JadeUsernameToken" />
+					<defaultEventInterfaceGuid>AAAAAAAAAAAAAAAAAAAAAA==</defaultEventInterfaceGuid>
+					<defaultInterfaceGuid>AAAAAAAAAAAAAAAAAAAAAA==</defaultInterfaceGuid>
+					<dotNetName/>
+					<executeMode>0</executeMode>
+					<guid>b6uwbp8i+T6axdmvbv6tDQ==</guid>
+					<isEventInterface>false</isEventInterface>
+					<key/>
+					<activexFeatures>
+						<ActiveXMethod>
+							<feature name="createDotNetObject_1" />
+							<memid>100663727</memid>
+						</ActiveXMethod>
+						<ActiveXMethod>
+							<feature name="getPassword" />
+							<memid>100663732</memid>
+						</ActiveXMethod>
+						<ActiveXMethod>
+							<feature name="getUsername" />
+							<memid>100663731</memid>
+						</ActiveXMethod>
+						<ActiveXMethod>
+							<feature name="getXml" />
+							<memid>100663730</memid>
+						</ActiveXMethod>
+						<ActiveXMethod>
+							<feature name="validatePassword" />
+							<memid>100663729</memid>
+						</ActiveXMethod>
+					</activexFeatures>
+				</ActiveXClass>
+				<ActiveXClass>
+					<activeXName>JadeSecurityToken</activeXName>
+					<baseClass name="JadeSecurityToken" />
+					<defaultEventInterfaceGuid>AAAAAAAAAAAAAAAAAAAAAA==</defaultEventInterfaceGuid>
+					<defaultInterfaceGuid>AAAAAAAAAAAAAAAAAAAAAA==</defaultInterfaceGuid>
+					<dotNetName/>
+					<executeMode>0</executeMode>
+					<guid>lU2d3LEF6j2mK84R5kGG2g==</guid>
+					<isEventInterface>false</isEventInterface>
+					<key/>
+					<activexFeatures>
+						<ActiveXAttribute>
+							<feature name="clearPassword" />
+							<memid>67108958</memid>
+						</ActiveXAttribute>
+						<ActiveXAttribute>
+							<feature name="protectionOrder" />
+							<memid>67108957</memid>
+						</ActiveXAttribute>
+						<ActiveXMethod>
+							<feature name="clearPassword" />
+							<memid>67108958</memid>
+						</ActiveXMethod>
+						<ActiveXMethod>
+							<feature name="decryptXml" />
+							<memid>100663466</memid>
+						</ActiveXMethod>
+						<ActiveXMethod>
+							<feature name="encryptXml" />
+							<memid>100663467</memid>
+						</ActiveXMethod>
+						<ActiveXMethod>
+							<feature name="protectionOrder" />
+							<memid>67108957</memid>
+						</ActiveXMethod>
+						<ActiveXMethod>
+							<feature name="signXml" />
+							<memid>100663464</memid>
+						</ActiveXMethod>
+						<ActiveXMethod>
+							<feature name="verifySignature" />
+							<memid>100663465</memid>
+						</ActiveXMethod>
+					</activexFeatures>
+				</ActiveXClass>
+				<ActiveXClass>
+					<activeXName>JadeWSTimestampHeader</activeXName>
+					<baseClass name="JadeWSTimestampHeader" />
+					<defaultEventInterfaceGuid>AAAAAAAAAAAAAAAAAAAAAA==</defaultEventInterfaceGuid>
+					<defaultInterfaceGuid>AAAAAAAAAAAAAAAAAAAAAA==</defaultInterfaceGuid>
+					<dotNetName/>
+					<executeMode>0</executeMode>
+					<guid>lui6xW4jljG6fgVS3uAOIA==</guid>
+					<isEventInterface>false</isEventInterface>
+					<key/>
+					<activexFeatures>
+						<ActiveXAttribute>
+							<feature name="created" />
+							<memid>67108895</memid>
+						</ActiveXAttribute>
+						<ActiveXAttribute>
+							<feature name="expires" />
+							<memid>67108896</memid>
+						</ActiveXAttribute>
+						<ActiveXAttribute>
+							<feature name="secondsToTimeout" />
+							<memid>67108894</memid>
+						</ActiveXAttribute>
+						<ActiveXMethod>
+							<feature name="created" />
+							<memid>67108895</memid>
+						</ActiveXMethod>
+						<ActiveXMethod>
+							<feature name="expires" />
+							<memid>67108896</memid>
+						</ActiveXMethod>
+						<ActiveXMethod>
+							<feature name="getXml" />
+							<memid>100663332</memid>
+						</ActiveXMethod>
+						<ActiveXMethod>
+							<feature name="secondsToTimeout" />
+							<memid>67108894</memid>
+						</ActiveXMethod>
+						<ActiveXMethod>
+							<feature name="validateTimestamp" />
+							<memid>100663333</memid>
+						</ActiveXMethod>
+					</activexFeatures>
+				</ActiveXClass>
+				<ActiveXClass>
+					<activeXName>JadeWebServicesSecurity</activeXName>
+					<baseClass name="JadeWebServicesSecurity" />
+					<defaultEventInterfaceGuid>AAAAAAAAAAAAAAAAAAAAAA==</defaultEventInterfaceGuid>
+					<defaultInterfaceGuid>AAAAAAAAAAAAAAAAAAAAAA==</defaultInterfaceGuid>
+					<dotNetName/>
+					<executeMode>0</executeMode>
+					<guid>oVNHAw4p5DaaNoJ1+eKX9A==</guid>
+					<isEventInterface>false</isEventInterface>
+					<key/>
+					<activexFeatures>
+						<ActiveXAttribute>
+							<feature name="addressing" />
+							<memid>67109561</memid>
+						</ActiveXAttribute>
+						<ActiveXAttribute>
+							<feature name="creationTimestamp" />
+							<memid>67109560</memid>
+						</ActiveXAttribute>
+						<ActiveXAttribute>
+							<feature name="isEncrypted" />
+							<memid>67109563</memid>
+						</ActiveXAttribute>
+						<ActiveXAttribute>
+							<feature name="isSigned" />
+							<memid>67109562</memid>
+						</ActiveXAttribute>
+						<ActiveXAttribute>
+							<feature name="usernameToken" />
+							<memid>67109559</memid>
+						</ActiveXAttribute>
+						<ActiveXMethod>
+							<feature name="addressing" />
+							<memid>67109561</memid>
+						</ActiveXMethod>
+						<ActiveXMethod>
+							<feature name="creationTimestamp" />
+							<memid>67109560</memid>
+						</ActiveXMethod>
+						<ActiveXMethod>
+							<feature name="getTokens" />
+							<memid>100663826</memid>
+						</ActiveXMethod>
+						<ActiveXMethod>
+							<feature name="isEncrypted" />
+							<memid>67109563</memid>
+						</ActiveXMethod>
+						<ActiveXMethod>
+							<feature name="isSigned" />
+							<memid>67109562</memid>
+						</ActiveXMethod>
+						<ActiveXMethod>
+							<feature name="usernameToken" />
+							<memid>67109559</memid>
+						</ActiveXMethod>
+					</activexFeatures>
+				</ActiveXClass>
+			</coClasses>
+		</ActiveXLibrary>
+
+	<JadeExportedPackage name="UserNameTokenSecurityProfile">
+		<application name="WebServiceUtilitiesSchema" />
+	</JadeExportedPackage>
+</schema>

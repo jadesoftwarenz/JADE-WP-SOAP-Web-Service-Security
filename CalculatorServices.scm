@@ -1,24 +1,32 @@
-/* JADE COMMAND FILE NAME E:\WebServicesSecurity\Schema Files For WS-Security Samples\CalculatorServices.jcf */
-jadeVersionNumber "6.3.00";
+jadeVersionNumber "20.0.02";
 schemaDefinition
 CalculatorServices subschemaOf RootSchema completeDefinition, patchVersion=54435, patchVersioningEnabled = false;
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 importedPackageDefinitions
 	UserNameTokenSecurityProfile is WebServiceUtilitiesSchema::UserNameTokenSecurityProfile
 	(
 		documentationText
 		`Package for Web Services Security`
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 		importedClassDefinitions
 			JadeSecurityToken
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 			JadeUsernameToken
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 			JadeWSAddressingHeader
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 			JadeWSTimestampHeader
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 			JadeWebServicesSecurity
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 			Jadwssec
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 	)
 
 constantDefinitions
 localeDefinitions
 	5129 "English (New Zealand)" schemaDefaultLocale;
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 libraryDefinitions
 typeHeaders
 	CalculatorServices subclassOf RootSchemaApp transient, sharedTransientAllowed, transientAllowed, subclassSharedTransientAllowed, subclassTransientAllowed, number = 2425;
@@ -26,27 +34,36 @@ typeHeaders
 	JadeCalculator subclassOf JadeWebServiceProvider transient, sharedTransientAllowed, transientAllowed, subclassSharedTransientAllowed, subclassTransientAllowed, highestOrdinal = 4, number = 2427;
 	SCalculatorServices subclassOf RootSchemaSession transient, sharedTransientAllowed, transientAllowed, subclassSharedTransientAllowed, subclassTransientAllowed, number = 2428;
  
-interfaceDefs
 membershipDefinitions
  
 typeDefinitions
 	UserNameTokenSecurityProfile::JadeSecurityToken completeDefinition
 	(
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 	)
 	UserNameTokenSecurityProfile::JadeUsernameToken completeDefinition
 	(
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 	)
 	UserNameTokenSecurityProfile::JadeWSAddressingHeader completeDefinition
 	(
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 	)
 	UserNameTokenSecurityProfile::JadeWSTimestampHeader completeDefinition
 	(
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 	)
 	UserNameTokenSecurityProfile::JadeWebServicesSecurity completeDefinition
 	(
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 	)
 	UserNameTokenSecurityProfile::Jadwssec completeDefinition
 	(
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
+	)
+	JadeDotNetType completeDefinition
+	(
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2006:12:04:13:25:10.844;
 	)
 	Object completeDefinition
 	(
@@ -59,6 +76,7 @@ typeDefinitions
 	)
 	CalculatorServices completeDefinition
 	(
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 	)
 	Global completeDefinition
 	(
@@ -68,12 +86,11 @@ typeDefinitions
 	)
 	GCalculatorServices completeDefinition
 	(
-	)
-	JadeDotNetType completeDefinition
-	(
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 	)
 	JadeWebService completeDefinition
 	(
+		setModifiedTimeStamp "<unknown>" "9.9.00" 260208 2008:03:04:13:10:57.584;
 	webServicesClassProperties
 	(
 		wsdl = ``;
@@ -81,6 +98,7 @@ typeDefinitions
 	)
 	JadeWebServiceProvider completeDefinition
 	(
+		setModifiedTimeStamp "<unknown>" "9.9.00" 130307 2007:03:15:14:50:43.084;
 	webServicesClassProperties
 	(
 		additionalInfo = ``;
@@ -90,6 +108,7 @@ typeDefinitions
 	)
 	JadeCalculator completeDefinition
 	(
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 	webServicesClassProperties
 	(
 		additionalInfo = ``;
@@ -98,17 +117,23 @@ typeDefinitions
 	)
 	attributeDefinitions
 		endpoint:                      StringUtf8 protected, subId = 3, number = 3, ordinal = 4;
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 		messageID:                     StringUtf8 protected, subId = 1, number = 1, ordinal = 2;
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 		soapAction:                    StringUtf8 protected, subId = 2, number = 2, ordinal = 3;
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
  
 	jadeMethodDefinitions
 		processRequest() updating, protected, number = 1006;
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 		reply(): String updating, protected, number = 1008;
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
  
 	webServicesMethodDefinitions
 		add(
 			a: Real; 
 			b: Real): Real webService, number = 1001, wsdlName = "add";
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 		webServicesMethodProperties
 		(
 			inputEncodingStyle = "";
@@ -127,6 +152,7 @@ typeDefinitions
 		divide(
 			a: Real; 
 			b: Real): Real webService, number = 1004, wsdlName = "divide";
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 		webServicesMethodProperties
 		(
 			inputEncodingStyle = "";
@@ -145,6 +171,7 @@ typeDefinitions
 		multiply(
 			a: Real; 
 			b: Real): Real webService, number = 1003, wsdlName = "multiply";
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 		webServicesMethodProperties
 		(
 			inputEncodingStyle = "";
@@ -161,6 +188,7 @@ typeDefinitions
 			soapHeaders = null;
 		)
 		raiseSecurityTokenException(msg: String) webService, number = 1007;
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 		webServicesMethodProperties
 		(
 			inputEncodingStyle = "";
@@ -179,6 +207,7 @@ typeDefinitions
 		subtract(
 			a: Real; 
 			b: Real): Real webService, number = 1002, wsdlName = "subtract";
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 		webServicesMethodProperties
 		(
 			inputEncodingStyle = "";
@@ -200,18 +229,23 @@ typeDefinitions
 	)
 	RootSchemaSession completeDefinition
 	(
+		setModifiedTimeStamp "<unknown>" "6.1.00" 20031119 2003:12:01:13:54:02.270;
 	)
 	SCalculatorServices completeDefinition
 	(
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 	)
  
 inverseDefinitions
 databaseDefinitions
 CalculatorServicesDb
 	(
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 	databaseFileDefinitions
-		"s1" number=56;
-		"calculatorservices" number=57;
+		"s1" number = 56;
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
+		"calculatorservices" number = 57;
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 	defaultFileDefinition "calculatorservices";
 	classMapDefinitions
 		SCalculatorServices in "_environ";
@@ -222,6 +256,7 @@ CalculatorServicesDb
 schemaViewDefinitions
 _exposedListDefinitions
 CalculatorService version=1, priorVersion=0, registryId="_WebServices_Provider"
+		setModifiedTimeStamp "cnwhm6" "6.3.00" 54435 2023:01:16:14:55:49;
 (
 	JadeCalculator defaultStyle=99
 	(
