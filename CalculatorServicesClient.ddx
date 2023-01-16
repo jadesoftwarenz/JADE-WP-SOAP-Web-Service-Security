@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<schema name="CalculatorServicesClient" JadeVersionNumber="99.0.00" CompleteDefinition="true">
+	<Application name="CalculatorServicesClient">
+		<__overridePatchNumber>0</__overridePatchNumber>
+		<__patchControlString/>
+		<_aboutFormName/>
+		<_defaultLocaleId>0</_defaultLocaleId>
+		<_modifiedBy>cnwcrs1</_modifiedBy>
+		<_modifiedTimestamp>2010:04:08:09:47:06.416</_modifiedTimestamp>
+		<_patchVersion>54435</_patchVersion>
+		<_startupFormName/>
+		<_systemVersion>9.9.00</_systemVersion>
+		<aboutForm/>
+		<appVersion/>
+		<applicationType>G</applicationType>
+		<controlSpacing>4</controlSpacing>
+		<defaultApp>true</defaultApp>
+		<defaultMdi>false</defaultMdi>
+		<finalizeMethod/>
+		<fontBold>false</fontBold>
+		<fontName>MS Sans Serif</fontName>
+		<fontSize>8.25</fontSize>
+		<formMargin>7</formMargin>
+		<heightSingleLineControl>14</heightSingleLineControl>
+		<helpFile/>
+		<icon/>
+		<initializeMethod/>
+		<mdiStyle>0</mdiStyle>
+		<mdiWindowListOrder>0</mdiWindowListOrder>
+		<name>CalculatorServicesClient</name>
+		<showBubbleHelp>false</showBubbleHelp>
+		<startupForm/>
+		<useBorderStyleOnly>false</useBorderStyleOnly>
+		<webMinimumResponseTime>0</webMinimumResponseTime>
+		<threeDControls>
+			<GUIClass name="GroupBox" />
+			<GUIClass name="OptionButton" />
+			<GUIClass name="CheckBox" />
+		</threeDControls>
+	</Application>
+</schema>
