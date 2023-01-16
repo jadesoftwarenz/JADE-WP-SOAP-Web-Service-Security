@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <schema name="WebServiceUtilitiesSchema" JadeVersionNumber="99.0.00" CompleteDefinition="true">
 	<Application name="WebServiceUtilitiesSchema">
 		<__overridePatchNumber>0</__overridePatchNumber>
@@ -38,9 +38,6 @@
 			<GUIClass name="CheckBox" />
 		</threeDControls>
 	</Application>
-
-	<Global name="GWebServiceUtilitiesSchema">
-	</Global>
 
 	<ActiveXLibrary guid="wN/JbEeCEd+FRyB0IFJBUw==" activeXClass="Jadwssec">
 		<_modifiedBy>cnwcrs1</_modifiedBy>

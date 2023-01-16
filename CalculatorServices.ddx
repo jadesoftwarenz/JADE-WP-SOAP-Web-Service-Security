@@ -5,13 +5,13 @@
 		<__patchControlString/>
 		<_aboutFormName/>
 		<_defaultLocaleId>0</_defaultLocaleId>
-		<_internetPipeName>cnwcrs1a:7000</_internetPipeName>
-		<_modifiedBy>cnwcrs1</_modifiedBy>
-		<_modifiedTimestamp>2010:04:08:09:58:36.582</_modifiedTimestamp>
+		<_internetPipeName>0.0.0.0:6107</_internetPipeName>
+		<_modifiedBy>cnwhm6</_modifiedBy>
+		<_modifiedTimestamp>2023:01:16:13:58:26.223</_modifiedTimestamp>
 		<_numberOfPipes>1</_numberOfPipes>
-		<_patchVersion>54435</_patchVersion>
+		<_patchVersion>0</_patchVersion>
 		<_startupFormName/>
-		<_systemVersion>9.9.00</_systemVersion>
+		<_systemVersion>99.0.00</_systemVersion>
 		<_webAppDirectory/>
 		<_webBaseURL/>
 		<_webDefaultTimeZone/>
@@ -21,7 +21,7 @@
 		<_webHomePage/>
 		<_webInitializeMethod/>
 		<_webIsSecure>false</_webIsSecure>
-		<_webMachineName>cnwcrs1a</_webMachineName>
+		<_webMachineName>localhost</_webMachineName>
 		<_webMaxHTMLSize>0</_webMaxHTMLSize>
 		<_webServiceClasses> CalculatorService</_webServiceClasses>
 		<_webSessionTimeout>0</_webSessionTimeout>
