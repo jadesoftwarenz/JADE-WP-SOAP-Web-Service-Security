@@ -32,7 +32,7 @@ You may also be able to find versions of these schemas for usage with older vers
 **Step 2: Cloning the Repository**
 1. In the Browse menu, select the **Clone** command from the Git Source Control Client submenu.
 (The local path is filled in for you as the path you selected in Step 1.)
-2. For the Repository URL, enter https://github.com/jade-platform/WP-SOAP-Web-Service-Security.
+2. For the Repository URL, enter https://github.com/jadesoftwarenz/JADE-WP-SOAP-Web-Service-Security.
 3. Click the **Clone** button.
 
 **Step 3: Move jadewssec.dll**
